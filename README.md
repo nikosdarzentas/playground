@@ -162,13 +162,12 @@ Storable, threads, threads::shared
 
 #### download and install ARResT/Interrogate locally on user's machine
 Clone or download this repository and run ```sudo ./setup.pl --all --style [server|local|both]```. Use ```server``` for server-like machines with no GUI; ```local```, if you don't want to install shiny-server on your machine. Then for...</br>
-*server*: the shiny-server app can be accessed in a web browser with the public IP address of the machine.
-</br>or</br>
+*server*: the shiny-server app can be accessed in a web browser with the public IP address of the machine.</br>
 *local*: double click **‘Run Interrogate’** on user's desktop, or run ```shiny::runApp("INTERROGATE_DOWNLOAD_FOLDER")``` in R.
 
 
 #### launch Interrogate app directly from GitHub repository
-*‘processing’ is disabled, and you need all required R libraries*
+*FYI, this way, the ‘processing’ panel is disabled, and you still need to have installed all required R libraries (see above)*
 ```
 shiny::runGitHub("infspiredBAT/ARResT.Interrogate")
 ```
