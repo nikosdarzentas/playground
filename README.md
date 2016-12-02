@@ -55,24 +55,23 @@ ARResT/Interrogate is primarily based on R and Perl, relies on external tools an
 
 ### ‘processing’
 > Interface to the processing, annotation and profiling pipeline, which turns FASTQ raw data into tabulated information.
-![alt text](http://bat.infspire.org/images/intrg-processing.png "‘processing’ panel")
+<br>![alt text](http://bat.infspire.org/images/intrg-processing.png "‘processing’ panel")
 
 
 ### ‘file’
 > Loading of new, existing, stored results, including IMGT ‘summary’ files and user-defined highly-flexible tables (see our [Bioinformatics publication](http://www.ncbi.nlm.nih.gov/pubmed/27742700)); access to pipeline reports and logs; viewing and editing of sample metadata.
-![alt text](http://bat.infspire.org/images/intrg-file.png "‘file’ panel")
+<br>![alt text](http://bat.infspire.org/images/intrg-file.png "‘file’ panel")
 
 
 ### ‘questions’
 > Data selection and filtering, comparative calculations, and visualization.
-![alt text](http://bat.infspire.org/images/intrg-questions.png "‘questions’ panel")
+<br>![alt text](http://bat.infspire.org/images/intrg-questions.png "‘questions’ panel")
 
 
 ### ‘forensics’
 > Access to full nucleotide sequences; detailed sequence analysis with sequence networks and alignments; direct access to IMGT/V-QUEST.
-![alt text](http://bat.infspire.org/images/intrg-forensics.png "‘forensics’ panel")
-
-
+<br>![alt text](http://bat.infspire.org/images/intrg-forensics.png "‘forensics’ panel")
+<br>
 There is a **‘help’** panel with a running example, but our current strategy is to provide help, hints and tips through text across the interface, mainly through hover-over tooltips (almost always marked with an ‘[?]’).
 
 
@@ -198,6 +197,5 @@ swarm | https://github.com/torognes/swarm | AGPL-3.0
 ## Acknowledgements & Funding
 We gratefully acknowledge all our partners and collaborators, who have helped the inception, development, and publication of ARResT/Interrogate.
 Funding by Ministry of Health of the Czech Republic grant nr. 16-34272A, project CEITEC 2020 (LQ1601), project MEYS-NPS I-LO1413, and ESLHO::EuroClonality. Computational resources by MetaCentrum (LM2010005) and CERIT-SC (CZ.1.05/3.2.00/08.0144).
-
 
 
