@@ -54,22 +54,22 @@ ARResT/Interrogate is primarily based on R and Perl, relies on external tools an
 
 
 ### ‘processing’
-> Interface to the processing, annotation and profiling pipeline, which turns FASTQ raw data into tabulated information.
+Interface to the processing, annotation and profiling pipeline, which turns FASTQ raw data into tabulated information.<br>
 ![alt text](http://bat.infspire.org/images/intrg-processing.png "‘processing’ panel")
 
 
 ### ‘file’
-> Loading of new, existing, stored results, including IMGT ‘summary’ files and user-defined highly-flexible tables (see our [Bioinformatics publication](http://www.ncbi.nlm.nih.gov/pubmed/27742700)); access to pipeline reports and logs; viewing and editing of sample metadata.
+Loading of new, existing, stored results, including IMGT ‘summary’ files and user-defined highly-flexible tables (see our [Bioinformatics publication](http://www.ncbi.nlm.nih.gov/pubmed/27742700)); access to pipeline reports and logs; viewing and editing of sample metadata.<br>
 ![alt text](http://bat.infspire.org/images/intrg-file.png "‘file’ panel")
 
 
 ### ‘questions’
-> Data selection and filtering, comparative calculations, and visualization.
+Data selection and filtering, comparative calculations, and visualization.<br>
 ![alt text](http://bat.infspire.org/images/intrg-questions.png "‘questions’ panel")
 
 
 ### ‘forensics’
-> Access to full nucleotide sequences; detailed sequence analysis with sequence networks and alignments; direct access to IMGT/V-QUEST.
+Access to full nucleotide sequences; detailed sequence analysis with sequence networks and alignments; direct access to IMGT/V-QUEST.<br>
 ![alt text](http://bat.infspire.org/images/intrg-forensics.png "‘forensics’ panel")
 
 
