@@ -167,7 +167,7 @@ Clone or download this repository and run ```sudo ./setup.pl --all --style [serv
 
 
 #### launch Interrogate app directly from GitHub repository
-*FYI, this way, the ‘processing’ panel is disabled, and you still need to have installed all required R libraries (see above)*
+*this way, the ‘processing’ panel is disabled, and you need to have installed all required R libraries (see above)*
 ```
 shiny::runGitHub("infspiredBAT/ARResT.Interrogate")
 ```
