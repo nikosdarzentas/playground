@@ -30,7 +30,7 @@ cite us: http://www.ncbi.nlm.nih.gov/pubmed/27742700</br>
 
 
 demo server: http://bat.infspire.org/arrest/interrogate/demo/</br>
-> _The demo server currently only provides access to pre-processed clonality + MRD data (click on blue button when you visit), i.e. we limit access to the ‘processing’ panel and to the functionalities of the ‘file’ panel (see below for more on panels). Please contact us at bat@infspire.org if we can help by e.g. providing an account on our servers._
+> _The demo server currently only provides access to pre-processed data (click on blue button when you visit), i.e. we limit access to the ‘processing’ panel and to the functionalities of the ‘file’ panel (see below for more on panels). Please contact us at bat@infspire.org if we can help, e.g. by providing an account on our servers._
 
 
 
@@ -54,22 +54,22 @@ ARResT/Interrogate is primarily based on R and Perl, relies on external tools an
 
 
 ### ‘processing’
-Interface to the processing, annotation and profiling pipeline, which turns FASTQ raw data into tabulated information.<br>
+Interface to the processing, annotation and profiling pipeline, which turns FASTQ raw data into tabulated information.<br><br>
 ![alt text](http://bat.infspire.org/images/intrg-processing.png "‘processing’ panel")
 
 
 ### ‘file’
-Loading of new, existing, stored results, including IMGT ‘summary’ files and user-defined highly-flexible tables (see our [Bioinformatics publication](http://www.ncbi.nlm.nih.gov/pubmed/27742700)); access to pipeline reports and logs; viewing and editing of sample metadata.<br>
+Loading of new, existing, stored results, including IMGT ‘summary’ files and user-defined highly-flexible tables (see our [Bioinformatics publication](http://www.ncbi.nlm.nih.gov/pubmed/27742700)); access to pipeline reports and logs; viewing and editing of sample metadata.<br><br>
 ![alt text](http://bat.infspire.org/images/intrg-file.png "‘file’ panel")
 
 
 ### ‘questions’
-Data selection and filtering, comparative calculations, and visualization.<br>
+Data selection and filtering, comparative calculations, and visualization.<br><br>
 ![alt text](http://bat.infspire.org/images/intrg-questions.png "‘questions’ panel")
 
 
 ### ‘forensics’
-Access to full nucleotide sequences; detailed sequence analysis with sequence networks and alignments; direct access to IMGT/V-QUEST.<br>
+Access to full nucleotide sequences; detailed sequence analysis with sequence networks and alignments; direct access to IMGT/V-QUEST.<br><br>
 ![alt text](http://bat.infspire.org/images/intrg-forensics.png "‘forensics’ panel")
 
 
