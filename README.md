@@ -109,7 +109,7 @@ TR   VD : Vd-Dd3
 IG   INTRON-KDE
 IG   Vk-KDE
 </pre>
-ARResT/Interrogate produces junction sequences even for incomplete and special rearrangements (as outlined above) by using specific triplets chosen in an educated way, without making any claim as to their biological or functional relevance. These junctional sequences allow for consistent and detailed analysis across all junction classes.
+We produce junction sequences even for incomplete and special rearrangements (as outlined above) by using specific triplets chosen in an educated way, without making any claim as to their biological or functional relevance. These junctional sequences allow for consistent and detailed analysis across all junction classes.
 <pre>
 <b>anchors</b>
 5'
@@ -148,8 +148,7 @@ at least 3.3.1
 ConsensusClusterPlus (Bioconductor), Biostrings (Bioconductor), devtools, RCurl, grDevices, base64enc, plyr,
 data.table, RColorBrewer, pROC, ROCR, ggthemes, fields, amap, dynamicTreeCut, showtext, stringi, gplots,
 indicspecies, vegan, ggplot2, gdata, R.utils, curl, scales, nnet, MASS, reshape2, gtools, igraph, httpuv,
-htmltools, magrittr, ff, ffbase, V8, htmlwidgets, shiny, DT, shinyjs, rCharts, shinyTree, visNetwork,
-Rcpp
+htmltools, magrittr, ff, ffbase, V8, htmlwidgets, shiny, DT, shinyjs, rCharts, shinyTree, visNetwork, Rcpp
 ```
 
 
@@ -162,14 +161,14 @@ Storable, threads, threads::shared
 
 
 #### download and install ARResT/Interrogate locally on user's machine
-Clone or download this repository and run ```sudo ./setup.pl --all --style [server|local|both]```. Use ```server``` for server-like machines with no GUI; ```local```, if you don't want to install shiny-server on your machine. Then...</br>
-for *server*: the shiny-server app can be accessed in a web browser with the public IP address of the machine.
+Clone or download this repository and run ```sudo ./setup.pl --all --style [server|local|both]```. Use ```server``` for server-like machines with no GUI; ```local```, if you don't want to install shiny-server on your machine. Then for...</br>
+*server*: the shiny-server app can be accessed in a web browser with the public IP address of the machine.
 </br>or</br>
-for *local*: double click **‘Run Interrogate’** on user's desktop, or run ```shiny::runApp("INTERROGATE_DOWNLOAD_FOLDER")``` in R.
+*local*: double click **‘Run Interrogate’** on user's desktop, or run ```shiny::runApp("INTERROGATE_DOWNLOAD_FOLDER")``` in R.
 
 
 #### launch Interrogate app directly from GitHub repository
-#####(‘processing’ is disabled, and you need all required R libraries)
+*‘processing’ is disabled, and you need all required R libraries*
 ```
 shiny::runGitHub("infspiredBAT/ARResT.Interrogate")
 ```
