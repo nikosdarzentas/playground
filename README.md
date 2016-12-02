@@ -109,7 +109,7 @@ TR   VD : Vd-Dd3
 IG   INTRON-KDE
 IG   Vk-KDE
 </pre>
-ARResT/Interrogate produces junction sequences even for incomplete and special rearrangements (as outlined above) by using specific triplets chosen in an educated way, without making any claim as to their biological or functional relevance. These junctional sequences do allow for consistent and detailed analysis across all junction classes.
+ARResT/Interrogate produces junction sequences even for incomplete and special rearrangements (as outlined above) by using specific triplets chosen in an educated way, without making any claim as to their biological or functional relevance. These junctional sequences allow for consistent and detailed analysis across all junction classes.
 <pre>
 <b>anchors</b>
 5'
@@ -123,7 +123,7 @@ ARResT/Interrogate produces junction sequences even for incomplete and special r
 </pre>
 Finally, the pipeline assigns sequences to clonotypes, whose definition is user-settable - there is a lot of work and discussion about clonotype definitions, and EC-NGS will eventually provide guidelines which we will implement in ARResT/Interrogate. We currently provide four (4) options, all using junction classes and 5’ and 3’ gene assignments, then combined with nt or aa junction sequences, either per-sequence individual ones or based on supervised clustering - the current default is with cluster-based aa junctions. 
 #### validation
-The pipeline is validated against a set of (currently) 275 diverse sequences, from TP53 to non-rearranged germlines to examples of all aforementioned junction classes. Results are also compared against IMGT/V-QUEST when applicable, i.e. when junction classes are also supported by IMGT. The few current discrepancies are mostly restricted to differing 5’ and 3’ gene assignments, especially in cases with incompletely sequenced 5’ gene segments.
+The pipeline is validated against 100s of diverse sequences, from TP53 to non-rearranged germlines to examples of all aforementioned junction classes. Results are also compared against IMGT/V-QUEST when applicable, i.e. when junction classes are also supported by IMGT. The few current discrepancies are mostly restricted to differing 5’ and 3’ gene assignments, especially in cases with incompletely sequenced 5’ gene segments. Of course, due to the immense variability of these rearrangements, the intricacies and biases of the underlying laboratory technologies, and our ever-developing code, we cannot guarantee that there won’t be issues - so, trust, but verify.
 #### command-line
 We encourage the use of the ‘processing’ panel to access the pipeline, but of course command-line access is available. The main (Perl) script is the ```pipeline/scripts/``` folder and called ```wmd.pl```. Just calling it provides help and a quick guide, but a minimal command would be ```wmd.pl --op``` in the folder with (gzipped) FASTQ/FASTA files, with results made available in the `...--results` folder - look for .clntab files and run ```wmd.pl --help clntab``` to get column names and descriptions.
 
